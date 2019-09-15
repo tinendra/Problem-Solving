@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema loader="IncortaMetadataAnalytics_BS" name="IncortaMetadataAnalytics_BS" version="0.1">
+<businessViews>
+<businessView name="Incorta_MetaData_Analytics">
+<column label="Lastlogin Date" name="LASTLOGIN" source="IncortaMetadataAnalytics.USER.LASTLOGIN"/>
+<column label="DashBoard Creationdate" name="CREATIONDATE_D" source="IncortaMetadataAnalytics.DASHBOARD.CREATIONDATE"/>
+<column label="Schema Creationdate" name="CREATIONDATE_S" source="IncortaMetadataAnalytics.SCHEMA.CREATIONDATE"/>
+<column label="User Creationdate" name="CREATIONDATE_U" source="IncortaMetadataAnalytics.USER.CREATIONDATE"/>
+<column label="User Name" name="NAME_U" source="IncortaMetadataAnalytics.USER.NAME"/>
+<column label="Schema Name" name="NAME_S" source="IncortaMetadataAnalytics.SCHEMA.NAME"/>
+<column label="Dashboard Name" name="NAME_D" source="IncortaMetadataAnalytics.DASHBOARD.NAME"/>
+<column label="Login Name" name="LOGINNAME" source="IncortaMetadataAnalytics.USER.LOGINNAME"/>
+<column label="Schema Description" name="DESCRIPTION_S" source="IncortaMetadataAnalytics.SCHEMA.DESCRIPTION"/>
+<column label="Schema ID" name="ID_S" source="IncortaMetadataAnalytics.SCHEMA.ID"/>
+<column label="Schema Owner" name="OWNER_S" source="IncortaMetadataAnalytics.SCHEMA.OWNER"/>
+<column label="Schema Type" name="SCHEMATYPENAME" source="IncortaMetadataAnalytics.SCHEMA.SCHEMATYPENAME"/>
+<column label="Tenant (Schema)" name="TENANTNAME_S" source="IncortaMetadataAnalytics.SCHEMA.TENANTNAME"/>
+<column label="Content Type" name="CONTENT_TYPE" source="IncortaMetadataAnalytics.DASHBOARD.CONTENT_TYPE"/>
+<column label="DashBoard Description" name="DESCRIPTION_D" source="IncortaMetadataAnalytics.DASHBOARD.DESCRIPTION"/>
+<column label="DashBoard ID" name="ID_D" source="IncortaMetadataAnalytics.DASHBOARD.ID"/>
+<column label="DashBoard Modification Date" name="MODIFICATIONDATE_D" source="IncortaMetadataAnalytics.DASHBOARD.MODIFICATIONDATE"/>
+<column label="Schema Modification Date" name="MODIFICATIONDATE_S" source="IncortaMetadataAnalytics.SCHEMA.MODIFICATIONDATE"/>
+<column label="User Modification Date" name="MODIFICATIONDATE_U" source="IncortaMetadataAnalytics.USER.MODIFICATIONDATE"/>
+<column label="DashBoard Owner" name="OWNERNAME_D" source="IncortaMetadataAnalytics.DASHBOARD.OWNERNAME"/>
+<column label="DashBoard Parent" name="PARENT" source="IncortaMetadataAnalytics.DASHBOARD.PARENT"/>
+<column label="Tenant (DashBoard)" name="TENANTNAME_D" source="IncortaMetadataAnalytics.DASHBOARD.TENANTNAME"/>
+<column label="User Country" name="COUNTRY" source="IncortaMetadataAnalytics.USER.COUNTRY"/>
+<column label="User Timezone" name="TIMEZONE" source="IncortaMetadataAnalytics.USER.TIMEZONE"/>
+<column label="User Email" name="EMAIL" source="IncortaMetadataAnalytics.USER.EMAIL"/>
+<column label="User ID" name="ID_U" source="IncortaMetadataAnalytics.USER.ID"/>
+<column label="Password" name="PASSWORD" source="IncortaMetadataAnalytics.USER.PASSWORD"/>
+</businessView>
+</businessViews>
+</schema>
+
